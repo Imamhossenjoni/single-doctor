@@ -4,28 +4,28 @@
         "id": 1,
         "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
         "price": 3700,
-        "img": "https://i.ibb.co/vB9tr7k/dinner1.png"
+        "img": "https://i.ibb.co/sWmC5HQ/service-1.jpg"
     },
     {
         "name": "LABRATORY TESTS",
         "id": 2,
         "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
         "price": 4500,
-        "img": "https://i.ibb.co/TBtp1mb/dinner2.png"
+        "img": "https://i.ibb.co/pWjbbTJ/service-3.jpg"
     },
     {
         "name": "HEALTH LIFESTYLE",
         "id": 3,
         "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
         "price": 12.99,
-        "img": "https://i.ibb.co/fHzrw95/dinner3.png"
+        "img": "https://i.ibb.co/Rzx0DGv/service-5.jpg"
     },
     {
         "name": "ARYTHMIA TREATMENT",
         "id": 4,
         "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
         "price": 8.99,
-        "img": "https://i.ibb.co/HphYfB6/dinner4.png"
+        "img": "https://i.ibb.co/FD8KSvR/service-4.jpg"
     },
     {
         "name": "ECG TESTS",
@@ -39,6 +39,6 @@
         "id": 6,
         "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
         "price": 9.99,
-        "img": "https://i.ibb.co/hVPjsPR/dinner6.png"
+        "img": "https://i.ibb.co/jws4WN9/service-2.jpg"
     }
 ]

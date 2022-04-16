@@ -1,5 +1,6 @@
 .navbar-container{
     background-color:#4E4E4E;
+    width: 100%;
     position: sticky;
     padding: 10px;
     top: 0px;

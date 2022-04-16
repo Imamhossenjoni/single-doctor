@@ -13,15 +13,13 @@ const Services = () => {
         <div className='container mx-auto'>
             <h2 className='text-center'>SERVICES</h2>
             <p className='text-center'>CHECK HERE HOW CAN I HELP YOU</p>
-            <div className='w-100'>
-            <div className='services-container'>
+            <div className='services-container row'>
                 {
                     services.map(service => <Service
                         key={service.id} service={service}
                     ></Service>)
                 }
             </div>
-        </div>
         </div>
     );
 };

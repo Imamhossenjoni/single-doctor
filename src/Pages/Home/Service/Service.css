@@ -1,0 +1,16 @@
+.service-container{
+    width: 450px;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    border:1px solid gray;
+}
+.service-container img{
+    height: 265px;
+    height: 350px;
+}
+.service-info{
+    text-align: left;
+    margin-left: 10px;
+}

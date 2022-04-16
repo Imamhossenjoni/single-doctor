@@ -1,0 +1,17 @@
+.banner{
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.doctor-tittle{
+    font-size: 3em;
+    color: orange;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.blue{
+    color: blue;
+}

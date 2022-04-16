@@ -1,0 +1,44 @@
+[
+    {
+        "name": "ORAL HYGIENIST",
+        "id": 1,
+        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "price": 9.99,
+        "img": "https://i.ibb.co/vB9tr7k/dinner1.png"
+    },
+    {
+        "name": "LABRATORY TESTS",
+        "id": 2,
+        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "price": 20.99,
+        "img": "https://i.ibb.co/TBtp1mb/dinner2.png"
+    },
+    {
+        "name": "HEALTH LIFESTYLE",
+        "id": 3,
+        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "price": 12.99,
+        "img": "https://i.ibb.co/fHzrw95/dinner3.png"
+    },
+    {
+        "name": "ARYTHMIA TREATMENT",
+        "id": 4,
+        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "price": 8.99,
+        "img": "https://i.ibb.co/HphYfB6/dinner4.png"
+    },
+    {
+        "name": "ECG TESTS",
+        "id": 5,
+        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "price": 6.99,
+        "img": "https://i.ibb.co/fnrpNH5/dinner5.png"
+    },
+    {
+        "name": "PHYSICAL EXAMINATION",
+        "id": 6,
+        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "price": 9.99,
+        "img": "https://i.ibb.co/hVPjsPR/dinner6.png"
+    }
+]

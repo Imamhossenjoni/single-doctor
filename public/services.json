@@ -3,14 +3,14 @@
         "name": "ORAL HYGIENIST",
         "id": 1,
         "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
-        "price": 9.99,
+        "price": 3700,
         "img": "https://i.ibb.co/vB9tr7k/dinner1.png"
     },
     {
         "name": "LABRATORY TESTS",
         "id": 2,
         "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
-        "price": 20.99,
+        "price": 4500,
         "img": "https://i.ibb.co/TBtp1mb/dinner2.png"
     },
     {

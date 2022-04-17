@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useAuthState, useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
@@ -25,11 +25,26 @@ const Login = () => {
     const handlePasswordBlur = event => {
         SetPassword(event.target.value);
     }
-    const handleSubmit = event => {
+    const handleLogin = event => {
         event.preventDefault();
         console.log(email, password)
-        signInWithEmailAndPassword(email, password)
+        signInWithEmailAndPassword(email, password);
     }
+    const navigate=useNavigate();
+    const location=useLocation();
+    console.log(location.state);
+    // let from = location.state?.from?.pathname || "/";
+    // console.log(from);
+    if(user){
+    navigate('/home')
+        }
+    // const location=useLocation();
+//    let from=location?.state?.pathname || "/"
+    // useEffect(()=>{
+    //     if(user){
+    //         navigate(from);
+    //     }
+    // },[user])
     const resetPassword = async () => {
         await sendPasswordResetEmail(email);
         if (email === '') {
@@ -46,17 +61,11 @@ const Login = () => {
     if (loading) {
         return <p>loading</p>
     }
-    const location = useLocation();
-    const navigate = useNavigate();
-    // let from =location.state.from.pathname || '/';
-    if (user) {
-        navigate('/home')
-        // navigate(from, { replace: true });
-    }
+    
     return (
         <div className='text-center'>
             <h2 className='text-primary mt-5'>Please Login</h2>
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleLogin}>
                 {errorElement}
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control className='w-50 mx-auto mt-5' onBlur={handleEmailBlur} type="email" placeholder="Enter email" required />

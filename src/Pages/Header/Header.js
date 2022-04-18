@@ -19,7 +19,7 @@ const Header = () => {
                 <Link to="/services">Services</Link>
                 <Link to="/about">About</Link>
                 <Link to="/blog">Blogs</Link>
-                {user ? <Link to="/login" onClick={handleSignOut}>Sign Up</Link> :
+                {user? <Link to="/login" onClick={handleSignOut}>Sign Up</Link> :
                     <Link to="/login">Login</Link>}
             </Nav>
         </div>

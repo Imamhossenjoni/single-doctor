@@ -75,6 +75,7 @@ const Login = () => {
             </Form>
             <p>Already Create an account? <Link to='/register' className='pe-auto text-primary text-decoration-none'>Register now</Link> </p>
             <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
+            <h1 className='text-secondary mt-5 mb-5'>Or</h1>
             <SocialLogin></SocialLogin>
         </div>
         

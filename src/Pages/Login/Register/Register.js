@@ -59,7 +59,7 @@ const Register = () => {
                 <input disabled={!agree} className='w-50 mx-auto btn btn-primary mt-2' type='submit' value='Register'></input>
             </form>
             <p>Already Registered? <Link to='/login' className='pe-auto text-primary text-decoration-none'>Login</Link> </p>
-            <h1 className='text-center text-secondary'>Or</h1>
+            <h1 className='text-center text-secondary mt-5 mb-5'>Or</h1>
            <div>
            <SocialLogin></SocialLogin>
            </div>

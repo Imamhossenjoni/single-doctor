@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import googPic from '../../../images/google.png'
 import githubPic from '../../../images/github (1).png'
 import fbPic from '../../../images/facebook (1).png'
+import { useNavigate } from 'react-router-dom';
 
 const SocialLogin = () => {
     const [signInWithGithub, user, loading, error] = useSignInWithGithub(auth);
     const [signInWithFacebook, user2, loading2, error2] = useSignInWithFacebook(auth);
     const [signInWithGoogle, user3, loading3, error3] = useSignInWithGoogle(auth);
-    let errorElement;
-    if(error || error2 || error3){
-       return  errorElement=<p>{error} {error2} {error3}</p>
+    const navigate=useNavigate();
+    if(user3){
+        navigate('/home');
     }
     return (
        <div>
-           {errorElement}
+           {
+               error3&&<p className='text-danger'>auth/popup-closed-by-user</p>
+           }
+           <h1>{error3}</h1>
             <button
                 onClick={() => signInWithGoogle()}
                 className='btn btn-info d-block w-50 mx-auto my-2'>

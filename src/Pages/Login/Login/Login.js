@@ -8,7 +8,12 @@ import './Login.css'
 
 const Login = () => {
     //sing in state
-    const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
+    const [
+        signInWithEmailAndPassword,
+        user2,
+        loading2,
+        error2,
+      ] = useSignInWithEmailAndPassword(auth);
     const [user, loading, error] = useAuthState(auth);
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
     //state for email,password & error
@@ -62,13 +67,13 @@ const Login = () => {
         <div className='text-center'>
             <h2 className='text-primary mt-5'>Please Login</h2>
             <Form onSubmit={handleLogin}>
-                {errorElement}
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control className='w-50 mx-auto mt-5' onBlur={handleEmailBlur} type="email" placeholder="Enter email" required />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control className='w-50 mx-auto mt-5' onBlur={handlePasswordBlur} type="password" placeholder="Password" required />
                 </Form.Group>
+                {errorElement}
                 <Button variant="primary d-block w-50 mx-auto mb-2" type="submit">
                     Login
                 </Button>

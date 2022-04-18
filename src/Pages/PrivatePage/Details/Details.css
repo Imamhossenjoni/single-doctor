@@ -1,0 +1,9 @@
+.details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+@media screen and (max-width:568px){
+    .details{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

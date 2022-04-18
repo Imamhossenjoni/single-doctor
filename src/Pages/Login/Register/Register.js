@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 import './Register.css'
 
 const Register = () => {
@@ -58,6 +59,10 @@ const Register = () => {
                 <input disabled={!agree} className='w-50 mx-auto btn btn-primary mt-2' type='submit' value='Register'></input>
             </form>
             <p>Already Registered? <Link to='/login' className='pe-auto text-primary text-decoration-none'>Login</Link> </p>
+            <h1 className='text-center text-secondary'>Or</h1>
+           <div>
+           <SocialLogin></SocialLogin>
+           </div>
         </div>
 
     );

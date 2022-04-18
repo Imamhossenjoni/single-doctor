@@ -3,17 +3,13 @@ import { Button, Form } from 'react-bootstrap';
 import { useAuthState, useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css'
 
 const Login = () => {
     //sing in state
-    const [
-        signInWithEmailAndPassword,
-        user,
-        loading,
-        error,
-    ] = useSignInWithEmailAndPassword(auth);
-    const [user1, loading1, error1] = useAuthState(auth);
+    const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
+    const [user, loading, error] = useAuthState(auth);
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
     //state for email,password & error
     const [email, SetEmail] = useState('');
@@ -36,7 +32,7 @@ const Login = () => {
     // let from = location.state?.from?.pathname || "/";
     // console.log(from);
     if(user){
-    navigate('/home')
+    navigate('/cheakOut')
         }
     // const location=useLocation();
 //    let from=location?.state?.pathname || "/"
@@ -79,7 +75,9 @@ const Login = () => {
             </Form>
             <p>Already Create an account? <Link to='/register' className='pe-auto text-primary text-decoration-none'>Register now</Link> </p>
             <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
+            <SocialLogin></SocialLogin>
         </div>
+        
     );
 };
 

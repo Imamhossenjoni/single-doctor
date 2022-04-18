@@ -33,18 +33,11 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
     console.log(location.state);
-    // let from = location.state?.from?.pathname || "/";
-    // console.log(from);
+
     if (user) {
         navigate('/cheakOut')
     }
-    // const location=useLocation();
-    //    let from=location?.state?.pathname || "/"
-    // useEffect(()=>{
-    //     if(user){
-    //         navigate(from);
-    //     }
-    // },[user])
+
     const resetPassword = async () => {
         await sendPasswordResetEmail(email);
         if (email === '') {

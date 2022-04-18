@@ -4,18 +4,16 @@ import { useAuthState, useSendPasswordResetEmail, useSignInWithEmailAndPassword 
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Login.css'
 
 const Login = () => {
     //sing in state
-    const [
-        signInWithEmailAndPassword,
-        user2,
-        loading2,
-        error2,
-      ] = useSignInWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
     const [user, loading, error] = useAuthState(auth);
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
     //state for email,password & error
     const [email, SetEmail] = useState('');
     const [password, SetPassword] = useState('');
@@ -30,17 +28,18 @@ const Login = () => {
         event.preventDefault();
         console.log(email, password)
         signInWithEmailAndPassword(email, password);
+        console.log(error);
     }
-    const navigate=useNavigate();
-    const location=useLocation();
+    const navigate = useNavigate();
+    const location = useLocation();
     console.log(location.state);
     // let from = location.state?.from?.pathname || "/";
     // console.log(from);
-    if(user){
-    navigate('/cheakOut')
-        }
+    if (user) {
+        navigate('/cheakOut')
+    }
     // const location=useLocation();
-//    let from=location?.state?.pathname || "/"
+    //    let from=location?.state?.pathname || "/"
     // useEffect(()=>{
     //     if(user){
     //         navigate(from);
@@ -50,11 +49,12 @@ const Login = () => {
         await sendPasswordResetEmail(email);
         if (email === '') {
             alert('enter your email')
+            toast('please cheak you email & set password');
         }
     }
     let errorElement;
     if (error) {
-        errorElement=
+        errorElement =
             <>
                 <p className='text-danger'>{error.message}</p>
             </>
@@ -62,7 +62,7 @@ const Login = () => {
     if (loading) {
         return <p>loading</p>
     }
-    
+
     return (
         <div className='text-center'>
             <h2 className='text-primary mt-5'>Please Login</h2>
@@ -81,9 +81,10 @@ const Login = () => {
             <p>Already Create an account? <Link to='/register' className='pe-auto text-primary text-decoration-none'>Register now</Link> </p>
             <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
             <h1 className='text-secondary mt-5 mb-5'>Or</h1>
+            <ToastContainer></ToastContainer>
             <SocialLogin></SocialLogin>
         </div>
-        
+
     );
 };
 

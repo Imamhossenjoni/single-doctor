@@ -5,7 +5,7 @@ import bannerPic2 from '../../../images/banner-pic (2).jpg'
 import './Banner.css'
 const Banner = () => {
     return (
-        <div className='banner ' style={{ backgroundImage: `url(${bannerPic2})` }} >
+        <div className='banner' style={{ backgroundImage: `url(${bannerPic2})` }} >
             <div>
                 <p className='doctor-tittle'>Hi! My name is <span className='text-danger'>Mary Doe</span><br />
                     I am a <span className='blue'>Doctor</span>

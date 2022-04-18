@@ -2,43 +2,43 @@
     {
         "name": "ORAL HYGIENIST",
         "id": 1,
-        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis.  scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu.",
         "price": 3700,
         "img": "https://i.ibb.co/sWmC5HQ/service-1.jpg"
     },
     {
         "name": "LABRATORY TESTS",
         "id": 2,
-        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
+        "about": "Laboratory tests check a sample of your blood, urine, or body tissues. A technician or your doctor analyzes the test samples to see if your results fall within the normal range.",
         "price": 4500,
         "img": "https://i.ibb.co/pWjbbTJ/service-3.jpg"
     },
     {
         "name": "HEALTH LIFESTYLE",
         "id": 3,
-        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
-        "price": 12.99,
+        "about": "Discover your best self through daily tips, quotes and new articles posted weekly. Smart Strategies for Successful Living provides great health & wellness tips. See Resources. Donate Online. Read Blog. Highlights:",
+        "price": 1290,
         "img": "https://i.ibb.co/Rzx0DGv/service-5.jpg"
     },
     {
         "name": "ARYTHMIA TREATMENT",
         "id": 4,
-        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
-        "price": 8.99,
+        "about": "Treatment for heart arrhythmias may include medications, therapies such as vagal maneuvers, cardioversion, catheter procedures or heart surgery.",
+        "price": 1200,
         "img": "https://i.ibb.co/FD8KSvR/service-4.jpg"
     },
     {
         "name": "ECG TESTS",
         "id": 5,
-        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
-        "price": 6.99,
-        "img": "https://i.ibb.co/fnrpNH5/dinner5.png"
+        "about": "An electrocardiogram (ECG) is a simple test that can be used to check your heart's rhythm and electrical activity. Sensors attached to the skin are used to detect the electrical signals.",
+        "price":2750,
+        "img": "https://i.ibb.co/8cN99Zt/ecg-test2.jpg"
     },
     {
         "name": "PHYSICAL EXAMINATION",
         "id": 6,
-        "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti.  Curabitur velit eros, lobortis eget nisi eget, scelerisque venenatis purus. Vestibulum felis lectus, bibendum in pulvinar sed, suscipit gravida arcu. Sed orci odio, aliquet eget euismod sit amet, porttitor in lacus.",
-        "price": 9.99,
+        "about": "A physical examination is a routine test your primary care provider (PCP) performs to check your overall health. A PCP may be a doctor, a nurse practitioner, or a physician assistant.",
+        "price": 2000,
         "img": "https://i.ibb.co/jws4WN9/service-2.jpg"
     }
 ]

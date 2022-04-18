@@ -4,6 +4,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+@media screen and (max-width:568px){
+    .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 .doctor-tittle{
     font-size: 3em;

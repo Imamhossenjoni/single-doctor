@@ -15,7 +15,7 @@ const Details = () => {
         <div className='details'>
             <div className='details-tittle'>
                 <h1 className='text-success text-center mt-3'>WelCome to My Service</h1>
-                <p className='blue text-center'>You have to fill up all of the field before service</p>
+                <p className='orange text-center'>You have to fill up all of the fields before services</p>
             </div>
             <div>
                 <Form className='w-50 mx-auto'>
